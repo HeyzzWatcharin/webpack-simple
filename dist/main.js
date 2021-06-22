@@ -1,0 +1,1 @@
+(()=>{const e=document.getElementById("name-input"),t=document.getElementById("submit-btn");let n;e.addEventListener("change",(e=>{n=e.target.value})),t.addEventListener("click",(e=>{event.preventDefault(),n?alert(`Hello, ${n}`):alert("Hello, what is your name?")}))})();
